@@ -1,4 +1,9 @@
 <resources>
-    <string name="main_title">Flutter Goes To World</string>
-    <string name="main_title2">Flutter Goes To World2</string>
+    <string name="main_title">Mangadex Reader</string>
+    <string name="language">Select Language</string>
+    <string name="language_id">Indonesian</string>
+    <string name="language_en">English US</string>
+    <string name="latest_updates">Latest</string>
+    <string name="populars">Populars</string>
+    <string name="follows">Follows</string>
 </resources>

@@ -14,6 +14,9 @@ dependencies:
 
   xml: "^3.0.0"
   xml2json: "^2.0.14"
+  flutter_svg: "^0.5.0"
+  http: "^0.11.3+16"
+  cached_network_image: "^0.4.1+1"
 
 dev_dependencies:
   flutter_test:
@@ -85,3 +88,7 @@ flutter:
   assets:
     - assets/locales/values-en/strings.xml
     - assets/locales/values-id/strings.xml
+
+    - assets/drawables/battery_charging.xml
+    - assets/drawables/text.svg
+    - assets/drawables/flutterlogo.png

@@ -1,3 +1,9 @@
 <resources>
-    <string name="main_title">Flutter Mendunia</string>
+    <string name="main_title">Pembaca Mangadex</string>
+    <string name="language">Pilih Bahasa</string>
+    <string name="language_id">Bahasa Indonesia</string>
+    <string name="language_en">Ingris Amerika</string>
+    <string name="latest_updates">Terbaru</string>
+    <string name="populars">Populer</string>
+    <string name="follows">Mengikuti</string>
 </resources>

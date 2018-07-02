@@ -1,12 +1,11 @@
+import 'package:exercise/ReadManga.dart';
+import 'package:exercise/SplashScreen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
-
-import 'MyHomePage.dart';
-
 import 'translations.dart';
 import 'application.dart';
-import 'language-selector.dart';
+import 'MyHomePage.dart';
 
 void main() => runApp(new MyApp());
 
@@ -66,29 +65,17 @@ class _MyAppState extends State<MyApp> {
       ],
       supportedLocales: applic.supportedLocales(),
 
-      home: new Scaffold(
-        drawer: new Drawer(
-          child: new LanguageSelector(),
-          elevation: 2.0,
-        ),
-
-        appBar: new AppBar(
-          actions: <Widget>[
-            new IconButton(
-              icon: new Icon(Icons.close),
-              onPressed: () => Navigator.of(context).pop(null),
-            ),
-          ],
-          leading: new Container(),
-
-          title: new Text("Test"),
-        ),
-
-        body: new Container(
-
-        ),
-
-      ),
+      home: new SplashScreen(),
+      routes: <String, WidgetBuilder>{
+        '/MyHomePage': (BuildContext context) => new MyHomePage(),
+      },
     );
   }
 }
+
+
+
+
+
+
+
